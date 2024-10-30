@@ -1,0 +1,14 @@
+@font-face{
+	font-family:monaviscompte-menu;
+	src:url(../fonts/monaviscompte-menu.eot);
+	src:url(../fonts/monaviscompte-menu.eot?#iefix) format("embedded-opentype"),
+		url(../fonts/monaviscompte-menu.woff) format("woff"),
+		url(../fonts/monaviscompte-menu.ttf) format("truetype"),
+		url(../fonts/monaviscompte-menu.svg) format("svg");
+}
+
+#adminmenu #toplevel_page_monaviscompte-menu .menu-icon-generic div.wp-menu-image:before {
+    font-family: monaviscompte-menu!important;
+    content: "\e900";
+    font-size: 1.3em!important;
+}
